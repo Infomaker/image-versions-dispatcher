@@ -34,10 +34,10 @@ $ npm install
 ## Configuration
 Specify the environment variables for the lambda (in the code tab).
 
-| Variable key | value |
+| Variable key | Value |
 | ------------ | ----- |
-| TOPIC_ARN    | The SNS ARN to which lambda should push command messages to, e.g. arn:aws:sns:eu-west-1:713907151212:image_processing |
-| VERSIONS     | The versions of the image for which command messages should be created. Versions are described using width and height using the naming convention "w1500_h1200". E.g. w024_h,w_800,w1500_h1200,w_h460 |
+| TOPIC_ARN    | The SNS ARN to which lambda should push command messages to, _e.g. arn:aws:sns:eu-west-1:713907151212:image_processing_ |
+| VERSIONS     | The versions of the image for which command messages should be created. Versions are described using width and height using the naming convention "w1500_h1200". _E.g. w024_h,w_800,w1500_h1200,w_h460_ |
 | BASE_FOLDER  | In order to stop infinite recursive loop, the image versions will end up under a specific folder which is determined by this variable. If left out it will default to "versions" |
 
 ## AWS Lambda config
