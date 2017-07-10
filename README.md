@@ -14,6 +14,7 @@ will have the following structure:
   "key": "maxresdefault.jpg"
 }
 ```
+For more information om usage of this lambda, please see paragraph "Upload image" in google document [Writer image routes](https://docs.google.com/document/d/1jAc_aCcPZT7QAcPnG5EKgyXQSjffs8VU4KimWQNiOoY/edit#heading=h.l5eud61ns20u)
 
 ## Installation
 
